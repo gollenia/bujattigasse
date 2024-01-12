@@ -1,0 +1,90 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {
+                        "color": "#00794A",
+                        "name": "Rapid",
+                        "slug": "rapid"
+                },
+                {
+                        "color": "#100B00",
+                        "name": "Rauchschwarz",
+                        "slug": "smokyblack"
+                },
+                {
+                        "color": "#85CB33",
+                        "name": "Gelbgrün",
+                        "slug": "yellowgreen"
+                },
+                {
+                        "color": "#F7F9F0",
+                        "name": "Elfenbein",
+                        "slug": "ivory"
+                },
+                {
+                        "color": "#CED0C7",
+                        "name": "Timberwolf",
+                        "slug": "timberwolf"
+                },
+                {
+                        "color": "#9B9C94",
+                        "name": "Marinegrau",
+                        "slug": "battleshipgray"
+                },
+                {
+                        "color": "#6F7069",
+                        "name": "Dunkelgrau",
+                        "slug": "dimgray"
+                },
+                {
+                        "color": "#FF6534",
+                        "name": "Blutorange",
+                        "slug": "giantsorange"
+                }
+            ]
+        },
+        "typography": {
+            "fluid": true,
+            "letterSpacing": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "Overpass",
+                    "slug": "overpass",
+                    "name": "Overpass",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Overpass",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": [
+                                    "file:./assets/fonts/overpass-regular.woff2"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Overpass",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontStretch": "normal",
+                            "src": ["file:./assets/fonts/overpass-italic.woff2" ]
+                        },
+                        {
+                            "fontFamily": "Overpass",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontStretch": "normal",
+                            "src": ["file:./assets/fonts/overpass-bold.woff2" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "styles": {},
+    "patterns": []
+}
