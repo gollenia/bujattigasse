@@ -86,7 +86,7 @@
         }
     },
     "styles": {
-        "css": ".mt-0 { margin-top: 0 !important }"
+        "css": ".mt-0 { margin-top: 0 !important }; .has-global-padding > .alignfull { max-width: calc(1280px + 4rem); margin: auto; }"
     },
     "patterns": []
 }
