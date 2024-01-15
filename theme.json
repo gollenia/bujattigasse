@@ -104,7 +104,7 @@
                 "left": "1rem"
             }
         },
-        "css": ".mt-0 { margin-top: 0 !important }"
+        "css": "file:./style.css"
     },
     "patterns": []
 }
