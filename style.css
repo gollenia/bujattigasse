@@ -9,3 +9,7 @@ Version: 1.0.0
 */
 
 /* Add your custom styles here */
+
+.mt-0 {
+    margin-top: 0px;
+}
