@@ -105,6 +105,13 @@
                 "left": "1rem"
             }
         },
+        "blocks": {
+            "core/navigation-link": {
+                "typography": {
+                    "textDecoration": "none"
+                }
+            }
+        },
         "css": ".mt-0 { margin-top: 0 !important } @media screen and (max-width: 1440px) { body .is-layout-constrained > .alignwide { margin-left: -1rem !important; margin-right: -1rem !important; } }"
     },
     "patterns": []
