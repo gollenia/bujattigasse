@@ -22,7 +22,7 @@
                         "slug": "yellowgreen"
                 },
                 {
-                        "color": "#F7F9F0",
+                        "color": "#F0F0EC",
                         "name": "Elfenbein",
                         "slug": "ivory"
                 },
@@ -54,6 +54,7 @@
         },
         "typography": {
             "fluid": true,
+            "textDecoration": false,
             "letterSpacing": true,
             "fontFamilies": [
                 {
