@@ -104,7 +104,7 @@
                 "left": "1rem"
             }
         },
-        "css": "file:./style.css"
+        "css": ".mt-0 { margin-top: 0 !important } .alignwide { margin-left: -1rem; margin-right: -1rem; }"
     },
     "patterns": []
 }
