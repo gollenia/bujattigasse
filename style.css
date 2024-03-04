@@ -15,7 +15,7 @@ Version: 1.0.0
 }
 
 
-.button {
+button, .button {
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
