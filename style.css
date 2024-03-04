@@ -17,3 +17,14 @@ Version: 1.0.0
 body {
     background-color: #f00;
 }
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    appearance: none;
+    background: var(--wp--preset--color--primary);
+    color: #fff;
+}
