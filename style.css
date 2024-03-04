@@ -25,3 +25,14 @@ button, .button {
     background: var(--wp--preset--color--primary);
     color: #fff;
 }
+
+input[type=search] {
+    padding: 0.5rem;
+    font-family: inherit;
+    border: 2px solid #bbb;"
+}
+
+.ctx-sermons-sermon-list thead {
+    background: #f1f1f1;
+    border-bottom: 4px solid var(--wp--preset--color--primary);
+}
