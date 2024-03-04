@@ -24,6 +24,17 @@ button, .button {
     appearance: none;
     background: var(--wp--preset--color--primary);
     color: #fff;
+    transition: all 300ms;
+    padding: 8px;
+
+    &:hover {
+        background: var(--wp--preset--color--yellowgreen);
+    }
+}
+
+button:disabled {
+    background-color: #bbb !important;
+    color: #777;
 }
 
 input[type=search] {
@@ -36,3 +47,8 @@ input[type=search] {
     background: #f1f1f1;
     border-bottom: 4px solid var(--wp--preset--color--primary);
 }
+
+.ctx-sermons-card-title {
+    font-size: 1.5rem;
+}
+
