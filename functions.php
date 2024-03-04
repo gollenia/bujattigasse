@@ -14,7 +14,7 @@ add_action('wp_head', function () {
 function enqueue_scripts() {
 	wp_enqueue_style(
 		'theme-styles',
-		get_stylesheet_directory_uri() . '/build/style.css',
+		get_stylesheet_directory_uri() . '/style.css',
 		[],
 		"1.0"
 	);
