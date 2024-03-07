@@ -114,5 +114,24 @@
         },
         "css": ".mt-0 { margin-top: 0 !important } @media screen and (max-width: 800px) { body .is-layout-constrained > .alignwide { margin-left: -1rem !important; margin-right: -1rem !important; } } a { text-decoration: none !important }"
     },
-    "patterns": []
+    "patterns": [],
+    "customTemplates": [
+        {
+            "name": "noheader",
+            "title": "Seite ohne Titel",
+            "postTypes": ["page", "post", "event"]
+        }
+    ],
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Seiten-Kopf",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        }
+    ]
 }
