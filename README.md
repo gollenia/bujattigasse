@@ -1,3 +1,3 @@
 # bujattigasse
 
-Theme for Babtist Church
+Theme for Baptist Church
