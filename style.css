@@ -52,3 +52,14 @@ input[type=search] {
     font-size: 1.5rem;
 }
 
+.description__date {
+    width: 2rem;
+}
+
+.event-table .date__day--numeric {
+    margin-top: 5px;
+}
+
+.event-table .date__month--short {
+    background: var(--wp--preset--color--yellowgreen) !important
+}
