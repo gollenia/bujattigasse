@@ -16,7 +16,23 @@ function enqueue_scripts() {
 		'theme-styles',
 		get_stylesheet_directory_uri() . '/style.css',
 		[],
-		"1.0"
+		"1.1"
+	);
+
+	wp_enqueue_style(
+		'material-icons',
+		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+		[],
+		"1.1"
+	);
+}
+
+function admin_scripts() {
+	wp_enqueue_style(
+		'material-icons',
+		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+		[],
+		"1.1"
 	);
 }
 
@@ -28,3 +44,4 @@ function custom_upload_mimes( $existing_mimes ) {
 }
 add_filter( 'mime_types', 'custom_upload_mimes' );
 add_action('wp_enqueue_scripts', 'enqueue_scripts');
+add_action('admin_enqueue_scripts', 'admin_scripts');
