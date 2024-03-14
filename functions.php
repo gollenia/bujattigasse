@@ -21,18 +21,14 @@ function enqueue_scripts() {
 
 	wp_enqueue_style(
 		'material-icons',
-		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
-		[],
-		"1.1"
+		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
 	);
 }
 
 function admin_scripts() {
 	wp_enqueue_style(
 		'material-icons',
-		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
-		[],
-		"1.1"
+		"https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
 	);
 }
 
